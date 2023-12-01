@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 /* header section */
 nav {
@@ -105,3 +105,20 @@ img {
     color: #1F2937;
     margin: 20px 0;
 }
+/* quote section */
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+.quote-section p {
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-section h3 {
+    text-align: end;
+    color: #1F2937;
+}
+/* footer section */
