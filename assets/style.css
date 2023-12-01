@@ -73,4 +73,35 @@ img {
     width: 100px;
 }
 /* informations section */
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+    padding: 100px 0;
+    gap: 10px;
+}
 
+.box-info {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+.box-info:hover {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+.box h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.box p {
+    text-align: center;
+    color: #1F2937;
+    margin: 20px 0;
+}
